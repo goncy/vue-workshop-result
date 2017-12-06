@@ -9,9 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: process.env.NODE_ENV === 'production'
-      ? 'https://goncy.github.io/vue-workshop-result/'
-      : '/',
+    assetsPublicPath: '/',
     proxyTable: {},
 
     // Various Dev Server settings
@@ -57,7 +55,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: 'https://goncy.github.io/vue-workshop-result/',
 
     /**
      * Source Maps
