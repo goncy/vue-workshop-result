@@ -37,16 +37,15 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  
 }
 
 .result {
+  justify-content: space-between;
+  padding: 10px;
+
   p {
     margin: 0;
   }
-
-  padding: 10px;
 }
 
 img {
